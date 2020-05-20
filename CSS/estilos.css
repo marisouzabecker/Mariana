@@ -1,0 +1,35 @@
+body  {
+    background-image: url('https://i.pinimg.com/originals/29/07/f8/2907f819142e89282e51a35a38caa346.jpg');
+    font-family: Arial Black;
+  }
+  
+  .menu {
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu li {
+    list-style:none;
+  }
+  
+  .site-title {
+    color: limegreen;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .site-subtitle {
+    color: black;
+    display: flex;
+    justify-content: center; 
+    font-style: arial 
+  }
