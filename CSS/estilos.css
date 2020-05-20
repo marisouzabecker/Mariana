@@ -21,15 +21,18 @@ body  {
   }
   
   .site-title {
-    color: limegreen;
+    color: yellow;
     display: flex;
     justify-content: center;
-   
   }
   
   .site-subtitle {
-    color: black;
+    color: green;
     display: flex;
     justify-content: center; 
     font-style: arial 
+  }
+  
+  .site-title, .site-subtitle {
+    background-color: lightblue;
   }
