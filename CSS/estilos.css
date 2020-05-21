@@ -1,24 +1,45 @@
+/* soft reset do css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
 body  {
     background-image: url('https://i.pinimg.com/originals/29/07/f8/2907f819142e89282e51a35a38caa346.jpg');
     font-family: Arial Black;
   }
+
+  header {
+      height: 100vh;
+      display: flex;
+  }
   
   .menu {
     color: white;
+    position: fixed;
+    
   }
-  
+
+   .menu li {
+    list-style:none;
+  }
+  .menu a {
+    padding: 20px;
+    background-color: blue;
+  }
+
   a {
     text-decoration: none;
-    color: black
+    color: black;
   }
   
   a:hover {
     text-decoration: underline;
   }
   
-  .menu li {
-    list-style:none;
-  }
+ 
   
   .site-title {
     color: yellow;
