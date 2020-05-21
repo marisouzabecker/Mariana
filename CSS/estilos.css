@@ -25,7 +25,11 @@ body  {
    .menu li {
     list-style:none;
   }
-  
+  .menu a {
+    padding: 20px;
+    background-color: blue;
+  }
+
   a {
     text-decoration: none;
     color: black;
