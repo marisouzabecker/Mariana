@@ -7,12 +7,57 @@
 
 body  {
     background-image: url('https://i.pinimg.com/originals/29/07/f8/2907f819142e89282e51a35a38caa346.jpg');
-    font-family: Arial Black;
-    background-size: auto 100vh;
+    background-size: auto;
     height: 100vh;
+    font-family: 'Courgette', cursive;
   }
 
-   }
+ .contato{
+padding: 2em;
+height: 35vh;
+background-color: rgb(231, 218, 100);
+ }
+
+ .sobre{
+   background-color:  rgb(231, 218, 100);
+   padding: 2em
+   height 40vh;
+ }
+
+ .sobre p {
+   color: rgb(52, 148, 84);
+   text-indent: 5em;
+   margin-bottom: 0.5em;
+   text-align: justify;
+ }
+ .sobre h2 {
+  background-color: rgb(114, 194, 114);
+  font-family: 'Courgette', cursive;
+  margin-bottom: 1em;
+  font-size: 2em;
+ }
+ .contato h2 {
+     background-color: rgb(114, 194, 114);
+     font-family: 'Courgette', cursive;
+     margin-bottom: 1em;
+     font-size: 2em;
+ }
+ .contato a {
+   color: rgb(52, 148, 84);
+   font-size: 1em;
+ }
+
+ .contato a:active,
+ .contato a:hover {
+ text-decoration: none;
+ text-shadow:  04px 04px 5px blue;
+ }
+
+  .contato .icons {
+ text-align: center;
+ font-size: 5em;
+ color: aqua
+ ;
  }
   header {
       height: 50vh;
@@ -22,9 +67,17 @@ body  {
   }
   
   .menu {
-    color: white;
-    position: fixed;
-    
+    color: blue;
+    font-family: 'Balsamiq Sans', cursive;
+    position: inherit;
+  }
+
+  .menu a{
+    padding: 5px 20px;
+  }
+
+  .menu a:hover {
+ color: blue;
   }
 
    .menu li {
@@ -33,7 +86,7 @@ body  {
   
   a {
     text-decoration: none;
-    color: black;
+    color: blue;
   }
   
   a:hover {
@@ -43,13 +96,13 @@ body  {
  
   
   .site-title {
-    color: yellow;
+    color: rgb(52, 148, 84);
     display: flex;
     justify-content: center;
   }
   
   .site-subtitle {
-    color: green;
+    color:  rgb(255, 240, 32);
     display: flex;
     justify-content: center; 
     font-style: arial 
@@ -57,4 +110,5 @@ body  {
   
   .site-title, .site-subtitle {
     background-color: lightblue;
+    font-family: 'Anton', sans-serif;
   }
